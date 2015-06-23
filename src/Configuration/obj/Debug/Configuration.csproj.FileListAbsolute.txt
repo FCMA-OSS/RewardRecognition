@@ -1,0 +1,4 @@
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Configuration\bin\Debug\FCMA.RewardRecognition.Common.Configuration.dll
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Configuration\bin\Debug\FCMA.RewardRecognition.Common.Configuration.pdb
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Configuration\obj\Debug\FCMA.RewardRecognition.Common.Configuration.dll
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Configuration\obj\Debug\FCMA.RewardRecognition.Common.Configuration.pdb

@@ -1,0 +1,12 @@
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\ServiceContracts\bin\Debug\IRewardRecognitionService.cs
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\ServiceContracts\bin\Debug\FCMA.RewardRecognition.Infrastructure.ServiceContracts.dll
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\ServiceContracts\bin\Debug\FCMA.RewardRecognition.Infrastructure.ServiceContracts.pdb
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\ServiceContracts\bin\Debug\FCMA.RewardRecognition.Core.Entities.dll
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\ServiceContracts\bin\Debug\FCMA.RewardRecognition.Core.Models.dll
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\ServiceContracts\bin\Debug\EntityFramework.dll
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\ServiceContracts\bin\Debug\FCMA.RewardRecognition.Core.Entities.pdb
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\ServiceContracts\bin\Debug\FCMA.RewardRecognition.Core.Models.pdb
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\ServiceContracts\bin\Debug\EntityFramework.xml
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\ServiceContracts\obj\Debug\ServiceContracts.csprojResolveAssemblyReference.cache
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\ServiceContracts\obj\Debug\FCMA.RewardRecognition.Infrastructure.ServiceContracts.dll
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\ServiceContracts\obj\Debug\FCMA.RewardRecognition.Infrastructure.ServiceContracts.pdb

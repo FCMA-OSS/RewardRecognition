@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bundle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://vswebessentials.com/schemas/v1/bundle.xsd">
+  <settings>
+    <!--Determines if the bundle file should be automatically optimized after creation/update.-->
+    <minify>true</minify>
+    <!--Determine whether to generate/re-generate this bundle on building the solution.-->
+    <runOnBuild>false</runOnBuild>
+    <!--Specifies a custom subfolder to save files to. By default, compiled output will be placed in the same folder and nested under the original file.-->
+    <outputDirectory />
+  </settings>
+  <!--The order of the <file> elements determines the order of the files in the bundle.-->
+  <files>
+    <file>/Scripts/alasql.min.js</file>
+    <file>/Scripts/xlsx.min.js</file>
+    <file>/Scripts/angular.min.js</file>
+    <file>/Scripts/angular-animate.min.js</file>
+    <file>/Scripts/angular-touch.min.js</file>
+    <file>/Scripts/angular-route.min.js</file>
+    <file>/Scripts/angular-ui/ui-bootstrap-tpls.min.js</file>
+    <file>/Scripts/moment.min.js</file>
+    <file>/Scripts/Hashids.js</file>
+    <file>/App/app.js</file>
+    <file>/App/Services/rewardService.js</file>
+    <file>/App/Services/authService.js</file>
+    <file>/App/config.route.js</file>
+    <file>/App/Layout/shell.js</file>
+    <file>/App/Layout/sidebar.js</file>
+    <file>/App/Controllers/printController.js</file>
+    <file>/App/Controllers/detailModalController.js</file>
+    <file>/App/Controllers/createController.js</file>
+    <file>/App/Controllers/approvalController.js</file>
+    <file>/App/Controllers/myRewardsController.js</file>
+    <file>/App/Controllers/myTeamRewardsController.js</file>
+    <file>/App/Controllers/redeemController.js</file>
+    <file>/App/Controllers/reportController.js</file>
+  </files>
+</bundle>

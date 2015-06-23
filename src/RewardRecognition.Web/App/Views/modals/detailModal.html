@@ -1,0 +1,45 @@
+﻿<div class="modal-header">
+    <h3 class="modal-title">{{title}}</h3>
+</div>
+<div class="modal-body">
+    <table class="full-width">
+        <tr>
+            <td>
+                <img src="{{imageURL}}" class="user-image-icon" />
+            </td>
+        </tr>
+        <tr>
+            <td><strong>To:</strong></td>
+            <td>&nbsp;&nbsp;{{reward.recipientFullName}}</td>
+            <td><strong>Created:</strong></td>
+            <td>&nbsp;&nbsp;{{reward.createdDate | date:short}}</td>
+        </tr>
+        <tr>
+            <td><strong>From:</strong></td>
+            <td>&nbsp;&nbsp;{{reward.createdByFullName}}</td>
+            <td><strong>Redeemed:</strong></td>
+            <td>&nbsp;&nbsp;{{reward.redeemedDate | date:short}}</td>
+        </tr>
+        <tr>
+            <td><strong>Status:</strong></td>
+            <td>&nbsp;&nbsp;{{reward.rewardStatus.description}}</td>
+            <td><strong>Redeemed By:</strong></td>
+            <td>&nbsp;&nbsp;{{reward.redeemedBy}}</td>
+        </tr>
+        <tr>
+            <td><strong>Reward:</strong></td>
+            <td colspan="3">&nbsp;&nbsp;{{reward.rewardType.description}}</td>
+        </tr>
+        <tr>
+            <td><strong>Reason Category:</strong></td>
+            <td colspan="3">&nbsp;&nbsp;{{reward.rewardReason.description}}</td>
+        </tr>
+        <tr>
+            <td><strong>Reason Details:</strong></td>
+            <td colspan="3" valign="top">&nbsp;&nbsp;<textarea readonly="readonly" class="full-width  display-textarea left-align-text" rows="5" data-ng-model="reward.otherReason"></textarea></td>
+        </tr>
+    </table>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-fcma-green" data-ng-click="ok()">OK</button>
+</div>

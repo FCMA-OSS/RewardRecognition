@@ -1,0 +1,476 @@
+﻿/*#region fcma-buttons*/
+.btn-fcma-lightblue,
+.btn-fcma-darkblue,
+.btn-fcma-green,
+.btn-fcma-orange,
+.btn-fcma-brown,
+.btn-fcma-darkbrown,
+.btn-fcma-yellow,
+.btn-fcma-beige,
+.btn-fcma-gray {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
+}
+.btn-fcma-lightblue:active,
+.btn-fcma-darkblue:active,
+.btn-fcma-green:active,
+.btn-fcma-orange:active,
+.btn-fcma-brown:active,
+.btn-fcma-darkbrown:active,
+.btn-fcma-yellow:active,
+.btn-fcma-beige:active,
+.btn-fcma-gray:active,
+.btn-fcma-lightblue.active,
+.btn-fcma-darkblue.active,
+.btn-fcma-green.active,
+.btn-fcma-orange.active,
+.btn-fcma-brown.active,
+.btn-fcma-darkbrown.active,
+.btn-fcma-yellow.active,
+.btn-fcma-beige.active,
+.btn-fcma-gray.active {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+.btn-fcma-lightblue .badge,
+.btn-fcma-darkblue .badge,
+.btn-fcma-green .badge,
+.btn-fcma-orange .badge,
+.btn-fcma-brown .badge,
+.btn-fcma-darkbrown .badge,
+.btn-fcma-yellow .badge,
+.btn-fcma-beige .badge ,
+.btn-fcma-gray .badge{
+  text-shadow: none;
+  color:white;
+}
+
+.btn-fcma-brown {
+  color: #fff;
+  background-color: #ad7847;
+  border-color: #945f2e;
+}
+.btn-fcma-brown:hover,
+.btn-fcma-brown:focus,
+.btn-fcma-brown.focus,
+.btn-fcma-brown:active,
+.btn-fcma-brown.active,
+.open > .dropdown-toggle.btn-fcma-brown {
+  color: #fff;
+  background-color: #493829;
+  border-color: #7a4514;
+}
+.btn-fcma-brown:active,
+.btn-fcma-brown.active,
+.open > .dropdown-toggle.btn-fcma-brown {
+  background-image: none;
+}
+.btn-fcma-brown.disabled,
+.btn-fcma-brown[disabled],
+fieldset[disabled] .btn-fcma-brown,
+.btn-fcma-brown.disabled:hover,
+.btn-fcma-brown[disabled]:hover,
+fieldset[disabled] .btn-fcma-brown:hover,
+.btn-fcma-brown.disabled:focus,
+.btn-fcma-brown[disabled]:focus,
+fieldset[disabled] .btn-fcma-brown:focus,
+.btn-fcma-brown.disabled.focus,
+.btn-fcma-brown[disabled].focus,
+fieldset[disabled] .btn-fcma-brown.focus,
+.btn-fcma-brown.disabled:active,
+.btn-fcma-brown[disabled]:active,
+fieldset[disabled] .btn-fcma-brown:active,
+.btn-fcma-brown.disabled.active,
+.btn-fcma-brown[disabled].active,
+fieldset[disabled] .btn-fcma-brown.active {
+  background-color: #ad7847;
+  border-color: #945f2e;
+}
+.btn-fcma-brown .badge {
+  color: #ad7847;
+  background-color: #fff;
+}
+
+
+
+.btn-fcma-darkbrown {
+  color: #fff;
+  background-color: #2f1e0f;
+  border-color: #221102;
+}
+.btn-fcma-darkbrown:hover,
+.btn-fcma-darkbrown:focus,
+.btn-fcma-darkbrown.focus,
+.btn-fcma-darkbrown:active,
+.btn-fcma-darkbrown.active,
+.open > .dropdown-toggle.btn-fcma-darkbrown {
+  color: #fff;
+  background-color: #160500;
+  border-color: #090000;
+}
+.btn-fcma-darkbrown:active,
+.btn-fcma-darkbrown.active,
+.open > .dropdown-toggle.btn-fcma-darkbrown {
+  background-image: none;
+}
+.btn-fcma-darkbrown.disabled,
+.btn-fcma-darkbrown[disabled],
+fieldset[disabled] .btn-fcma-darkbrown,
+.btn-fcma-darkbrown.disabled:hover,
+.btn-fcma-darkbrown[disabled]:hover,
+fieldset[disabled] .btn-fcma-darkbrown:hover,
+.btn-fcma-darkbrown.disabled:focus,
+.btn-fcma-darkbrown[disabled]:focus,
+fieldset[disabled] .btn-fcma-darkbrown:focus,
+.btn-fcma-darkbrown.disabled.focus,
+.btn-fcma-darkbrown[disabled].focus,
+fieldset[disabled] .btn-fcma-darkbrown.focus,
+.btn-fcma-darkbrown.disabled:active,
+.btn-fcma-darkbrown[disabled]:active,
+fieldset[disabled] .btn-fcma-darkbrown:active,
+.btn-fcma-darkbrown.disabled.active,
+.btn-fcma-darkbrown[disabled].active,
+fieldset[disabled] .btn-fcma-darkbrown.active {
+  background-color: #2f1e0f;
+  border-color: #221102;
+}
+.btn-fcma-darkbrown .badge {
+  color: #2f1e0f;
+  background-color: #fff;
+}
+
+
+
+.btn-fcma-green {
+  color: #fff;
+  background-color: #5e9732;
+  border-color: #457e19;
+}
+.btn-fcma-green:hover,
+.btn-fcma-green:focus,
+.btn-fcma-green.focus,
+.btn-fcma-green:active,
+.btn-fcma-green.active,
+.open > .dropdown-toggle.btn-fcma-green {
+  color: #fff;
+  background-color: #2b6400;
+  border-color: #124b00;
+}
+.btn-fcma-green:active,
+.btn-fcma-green.active,
+.open > .dropdown-toggle.btn-fcma-green {
+  background-image: none;
+}
+.btn-fcma-green.disabled,
+.btn-fcma-green[disabled],
+fieldset[disabled] .btn-fcma-green,
+.btn-fcma-green.disabled:hover,
+.btn-fcma-green[disabled]:hover,
+fieldset[disabled] .btn-fcma-green:hover,
+.btn-fcma-green.disabled:focus,
+.btn-fcma-green[disabled]:focus,
+fieldset[disabled] .btn-fcma-green:focus,
+.btn-fcma-green.disabled.focus,
+.btn-fcma-green[disabled].focus,
+fieldset[disabled] .btn-fcma-green.focus,
+.btn-fcma-green.disabled:active,
+.btn-fcma-green[disabled]:active,
+fieldset[disabled] .btn-fcma-green:active,
+.btn-fcma-green.disabled.active,
+.btn-fcma-green[disabled].active,
+fieldset[disabled] .btn-fcma-green.active {
+  background-color: #5e9732;
+  border-color: #457e19;
+}
+.btn-fcma-green .badge {
+  color: #5e9732;
+  background-color: #fff;
+}
+
+
+.btn-fcma-orange {
+  color: #fff;
+  background-color: #dd712e;
+  border-color: #c45815;
+}
+.btn-fcma-orange:hover,
+.btn-fcma-orange:focus,
+.btn-fcma-orange.focus,
+.btn-fcma-orange:active,
+.btn-fcma-orange.active,
+.open > .dropdown-toggle.btn-fcma-orange {
+  color: #fff;
+  background-color: #aa3e00;
+  border-color: #912500;
+}
+.btn-fcma-orange:active,
+.btn-fcma-orange.active,
+.open > .dropdown-toggle.btn-fcma-orange {
+  background-image: none;
+}
+.btn-fcma-orange.disabled,
+.btn-fcma-orange[disabled],
+fieldset[disabled] .btn-fcma-orange,
+.btn-fcma-orange.disabled:hover,
+.btn-fcma-orange[disabled]:hover,
+fieldset[disabled] .btn-fcma-orange:hover,
+.btn-fcma-orange.disabled:focus,
+.btn-fcma-orange[disabled]:focus,
+fieldset[disabled] .btn-fcma-orange:focus,
+.btn-fcma-orange.disabled.focus,
+.btn-fcma-orange[disabled].focus,
+fieldset[disabled] .btn-fcma-orange.focus,
+.btn-fcma-orange.disabled:active,
+.btn-fcma-orange[disabled]:active,
+fieldset[disabled] .btn-fcma-orange:active,
+.btn-fcma-orange.disabled.active,
+.btn-fcma-orange[disabled].active,
+fieldset[disabled] .btn-fcma-orange.active {
+  background-color: #dd712e;
+  border-color: #c45815;
+}
+.btn-fcma-orange .badge {
+  color: #dd712e;
+  background-color: #fff;
+}
+
+
+
+.btn-fcma-lightblue {
+  color: #fff;
+  background-color: #88bccd;
+  border-color: #6fa3b4;
+}
+.btn-fcma-lightblue:hover,
+.btn-fcma-lightblue:focus,
+.btn-fcma-lightblue.focus,
+.btn-fcma-lightblue:active,
+.btn-fcma-lightblue.active,
+.open > .dropdown-toggle.btn-fcma-lightblue {
+  color: #fff;
+  background-color: #55899a;
+  border-color: #3c7081;
+}
+.btn-fcma-lightblue:active,
+.btn-fcma-lightblue.active,
+.open > .dropdown-toggle.btn-fcma-lightblue {
+  background-image: none;
+}
+.btn-fcma-lightblue.disabled,
+.btn-fcma-lightblue[disabled],
+fieldset[disabled] .btn-fcma-lightblue,
+.btn-fcma-lightblue.disabled:hover,
+.btn-fcma-lightblue[disabled]:hover,
+fieldset[disabled] .btn-fcma-lightblue:hover,
+.btn-fcma-lightblue.disabled:focus,
+.btn-fcma-lightblue[disabled]:focus,
+fieldset[disabled] .btn-fcma-lightblue:focus,
+.btn-fcma-lightblue.disabled.focus,
+.btn-fcma-lightblue[disabled].focus,
+fieldset[disabled] .btn-fcma-lightblue.focus,
+.btn-fcma-lightblue.disabled:active,
+.btn-fcma-lightblue[disabled]:active,
+fieldset[disabled] .btn-fcma-lightblue:active,
+.btn-fcma-lightblue.disabled.active,
+.btn-fcma-lightblue[disabled].active,
+fieldset[disabled] .btn-fcma-lightblue.active {
+  background-color: #88bccd;
+  border-color: #6fa3b4;
+}
+.btn-fcma-lightblue .badge {
+  color: #88bccd;
+  background-color: #fff;
+}
+
+
+
+.btn-fcma-darkblue {
+  color: #fff;
+  background-color: #1a6887;
+  border-color: #014f6e;
+}
+.btn-fcma-darkblue:hover,
+.btn-fcma-darkblue:focus,
+.btn-fcma-darkblue.focus,
+.btn-fcma-darkblue:active,
+.btn-fcma-darkblue.active,
+.open > .dropdown-toggle.btn-fcma-darkblue {
+  color: #fff;
+  background-color: #003554;
+  border-color: #001c3b;
+}
+.btn-fcma-darkblue:active,
+.btn-fcma-darkblue.active,
+.open > .dropdown-toggle.btn-fcma-darkblue {
+  background-image: none;
+}
+.btn-fcma-darkblue.disabled,
+.btn-fcma-darkblue[disabled],
+fieldset[disabled] .btn-fcma-darkblue,
+.btn-fcma-darkblue.disabled:hover,
+.btn-fcma-darkblue[disabled]:hover,
+fieldset[disabled] .btn-fcma-darkblue:hover,
+.btn-fcma-darkblue.disabled:focus,
+.btn-fcma-darkblue[disabled]:focus,
+fieldset[disabled] .btn-fcma-darkblue:focus,
+.btn-fcma-darkblue.disabled.focus,
+.btn-fcma-darkblue[disabled].focus,
+fieldset[disabled] .btn-fcma-darkblue.focus,
+.btn-fcma-darkblue.disabled:active,
+.btn-fcma-darkblue[disabled]:active,
+fieldset[disabled] .btn-fcma-darkblue:active,
+.btn-fcma-darkblue.disabled.active,
+.btn-fcma-darkblue[disabled].active,
+fieldset[disabled] .btn-fcma-darkblue.active {
+  background-color: #1a6887;
+  border-color: #014f6e;
+}
+.btn-fcma-darkblue .badge {
+  color: #1a6887;
+  background-color: #fff;
+}
+
+
+
+.btn-fcma-yellow {
+  color: #fff;
+  background-color: #e6c03a;
+  border-color: #cda721;
+}
+.btn-fcma-yellow:hover,
+.btn-fcma-yellow:focus,
+.btn-fcma-yellow.focus,
+.btn-fcma-yellow:active,
+.btn-fcma-yellow.active,
+.open > .dropdown-toggle.btn-fcma-yellow {
+  color: #fff;
+  background-color: #b38d07;
+  border-color: #9a7400;
+}
+.btn-fcma-yellow:active,
+.btn-fcma-yellow.active,
+.open > .dropdown-toggle.btn-fcma-yellow {
+  background-image: none;
+}
+.btn-fcma-yellow.disabled,
+.btn-fcma-yellow[disabled],
+fieldset[disabled] .btn-fcma-yellow,
+.btn-fcma-yellow.disabled:hover,
+.btn-fcma-yellow[disabled]:hover,
+fieldset[disabled] .btn-fcma-yellow:hover,
+.btn-fcma-yellow.disabled:focus,
+.btn-fcma-yellow[disabled]:focus,
+fieldset[disabled] .btn-fcma-yellow:focus,
+.btn-fcma-yellow.disabled.focus,
+.btn-fcma-yellow[disabled].focus,
+fieldset[disabled] .btn-fcma-yellow.focus,
+.btn-fcma-yellow.disabled:active,
+.btn-fcma-yellow[disabled]:active,
+fieldset[disabled] .btn-fcma-yellow:active,
+.btn-fcma-yellow.disabled.active,
+.btn-fcma-yellow[disabled].active,
+fieldset[disabled] .btn-fcma-yellow.active {
+  background-color: #e6c03a;
+  border-color: #cda721;
+}
+.btn-fcma-yellow .badge {
+  color: #e6c03a;
+  background-color: #fff;
+}
+
+
+.btn-beige {
+  color: #fff;
+  background-color: #f3e8ca;
+  border-color: #dacfb1;
+}
+.btn-beige:hover,
+.btn-beige:focus,
+.btn-beige.focus,
+.btn-beige:active,
+.btn-beige.active,
+.open > .dropdown-toggle.btn-beige {
+  color: #fff;
+  background-color: #c0b597;
+  border-color: #a79c7e;
+}
+.btn-beige:active,
+.btn-beige.active,
+.open > .dropdown-toggle.btn-beige {
+  background-image: none;
+}
+.btn-beige.disabled,
+.btn-beige[disabled],
+fieldset[disabled] .btn-beige,
+.btn-beige.disabled:hover,
+.btn-beige[disabled]:hover,
+fieldset[disabled] .btn-beige:hover,
+.btn-beige.disabled:focus,
+.btn-beige[disabled]:focus,
+fieldset[disabled] .btn-beige:focus,
+.btn-beige.disabled.focus,
+.btn-beige[disabled].focus,
+fieldset[disabled] .btn-beige.focus,
+.btn-beige.disabled:active,
+.btn-beige[disabled]:active,
+fieldset[disabled] .btn-beige:active,
+.btn-beige.disabled.active,
+.btn-beige[disabled].active,
+fieldset[disabled] .btn-beige.active {
+  background-color: #f3e8ca;
+  border-color: #dacfb1;
+}
+.btn-beige .badge {
+  color: #f3e8ca;
+  background-color: #fff;
+}
+
+
+
+.btn-fcma-gray {
+  color: #fff;
+  background-color: #93918a;
+  border-color: #86847d;
+}
+.btn-fcma-gray:hover,
+.btn-fcma-gray:focus,
+.btn-fcma-gray.focus,
+.btn-fcma-gray:active,
+.btn-fcma-gray.active,
+.open > .dropdown-toggle.btn-fcma-gray {
+  color: #fff;
+  background-color: #7a7871;
+  border-color: #6d6b64;
+}
+.btn-fcma-gray:active,
+.btn-fcma-gray.active,
+.open > .dropdown-toggle.btn-fcma-gray {
+  background-image: none;
+}
+.btn-fcma-gray.disabled,
+.btn-fcma-gray[disabled],
+fieldset[disabled] .btn-fcma-gray,
+.btn-fcma-gray.disabled:hover,
+.btn-fcma-gray[disabled]:hover,
+fieldset[disabled] .btn-fcma-gray:hover,
+.btn-fcma-gray.disabled:focus,
+.btn-fcma-gray[disabled]:focus,
+fieldset[disabled] .btn-fcma-gray:focus,
+.btn-fcma-gray.disabled.focus,
+.btn-fcma-gray[disabled].focus,
+fieldset[disabled] .btn-fcma-gray.focus,
+.btn-fcma-gray.disabled:active,
+.btn-fcma-gray[disabled]:active,
+fieldset[disabled] .btn-fcma-gray:active,
+.btn-fcma-gray.disabled.active,
+.btn-fcma-gray[disabled].active,
+fieldset[disabled] .btn-fcma-gray.active {
+  background-color: #93918a;
+  border-color: #86847d;
+}
+.btn-fcma-gray .badge {
+  color: #93918a;
+  background-color: #fff;
+}
+/*#endregion fcma-buttons*/

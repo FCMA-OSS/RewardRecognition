@@ -1,0 +1,4 @@
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Models\bin\Debug\FCMA.RewardRecognition.Core.Models.dll
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Models\bin\Debug\FCMA.RewardRecognition.Core.Models.pdb
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Models\obj\Debug\FCMA.RewardRecognition.Core.Models.dll
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Models\obj\Debug\FCMA.RewardRecognition.Core.Models.pdb

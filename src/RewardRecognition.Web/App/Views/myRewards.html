@@ -1,0 +1,70 @@
+﻿<section id="myRewards-view" class="mainbar" data-ng-controller="myRewardsController as vm">
+    <section>
+        <div class="main-content center-text">
+            <div class="col-sm-2 col-md-2 col-lg-2"></div>
+            <div class="col-sm-8 col-md-8 col-lg-8 ">
+                <h2 class="brown-text">My Rewards </h2>
+                <table class="table table-condensed">
+                    <thead>
+                        <tr>
+                            <th class="center-text"><a href="" data-ng-click="vm.changeSort('createdByFullName')">From</a></th>
+                            <th class="center-text"><a href="" data-ng-click="vm.changeSort('recipientFullName')">To</a></th>
+                            <th class="center-text"><a href="" data-ng-click="vm.changeSort('rewardTypeID')">Reward</a></th>
+                            <th class="center-text"><a href="" data-ng-click="vm.changeSort('createdDate')">Created</a></th>
+                            <th class="center-text"><a href="" data-ng-click="vm.changeSort('statusDescription')">Status</a></th>
+                            <th style="text-align:left;"><a href="">Actions</a></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-ng-repeat="r in filtered = (vm.filteredRewards | orderBy:vm.sort:vm.reverse) | startFrom:(vm.currentPage-1)*vm.pageSize | limitTo:vm.pageSize">
+                            <td class="colLeftAlign">{{r.createdByFullName}}</td>
+                            <td class="colLeftAlign">{{r.recipientFullName}}</td>
+                            <td class="colLeftAlign">{{r.rewardTypeDescription}}</td>
+                            <td class="colLeftAlign">{{r.createdDate | date:short}}</td>
+                            <td class="colLeftAlign">{{r.statusDescription}}</td>
+                            <td style="text-align:left;">
+                                <span>
+                                    <a data-ng-click="vm.openDetail(r)">
+                                        <span class="fa fa-search-plus blue" title="View"></span>
+                                    </a>
+                                </span>
+                                &nbsp;
+                                <span>
+                                    <a data-ng-show="vm.showPrint(r.statusDescription, r.recipient)" data-ng-click="vm.openPrint(r)">
+                                        <span class="fa fa-print blue" title="Print"></span>
+                                    </a>
+                                </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="col-md-12" ng-show="filtered.length == 0">
+                    <div class="col-md-12">
+                        <h4>No results found</h4>
+                    </div>
+                </div>
+                <div class="row" ng-show="filtered.length > vm.pageSize" align="center" id="paginationContent">
+                    <pagination boundary-links="true" total-items="filtered.length" ng-model="vm.currentPage" class="pagination-sm" max-size="15" on-select-page="vm.setPage(page)"
+                                previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;" items-per-page="vm.pageSize" num-pages="numPages"></pagination>
+                </div>
+            </div>
+            <div class="col-sm-1 col-md-1 col-lg-1"></div>
+            <!--</div>-->
+            <!--**** print modal window ****-->
+            <script type="text/ng-template" id="printModal.html">
+                <div data-ng-include="'app/views/modals/printModal.html'"></div>
+            </script>
+            <!--**** end print modal window ****-->
+
+            <br />
+
+                <!--**** Detail modal window ****-->
+            <script type="text/ng-template" id="detailModal.html">
+                <div data-ng-include="'app/views/modals/detailModal.html'"></div>
+            </script>
+                <!--**** end DETAIL modal window ****-->
+
+    </section>
+</section>

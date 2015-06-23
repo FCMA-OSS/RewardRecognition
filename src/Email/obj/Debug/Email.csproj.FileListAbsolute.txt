@@ -1,0 +1,13 @@
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Email\bin\Debug\FCMA.RewardRecognition.Common.Email.dll
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Email\bin\Debug\FCMA.RewardRecognition.Common.Email.pdb
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Email\bin\Debug\FCMA.RewardRecognition.Common.Configuration.dll
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Email\bin\Debug\FCMA.RewardRecognition.Common.Logging.dll
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Email\bin\Debug\FCMA.RewardRecognition.Common.ContextProvider.dll
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Email\bin\Debug\log4net.dll
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Email\bin\Debug\FCMA.RewardRecognition.Common.Configuration.pdb
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Email\bin\Debug\FCMA.RewardRecognition.Common.Logging.pdb
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Email\bin\Debug\FCMA.RewardRecognition.Common.ContextProvider.pdb
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Email\bin\Debug\log4net.xml
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Email\obj\Debug\Email.csprojResolveAssemblyReference.cache
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Email\obj\Debug\FCMA.RewardRecognition.Common.Email.dll
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Email\obj\Debug\FCMA.RewardRecognition.Common.Email.pdb

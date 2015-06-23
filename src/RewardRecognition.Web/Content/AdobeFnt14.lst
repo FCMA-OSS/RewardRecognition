@@ -1,0 +1,470 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\font_1-webfont.eot
+FileModTime:1379613978
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\font_1-webfont.svg
+FileModTime:1379613978
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:apex_newbookNew-Book
+FamilyName:apex_newbook New
+StyleName:Book
+FullName:apex_newbook New Book Regular
+MenuName:apex_newbook New Book
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\font_1-webfont.ttf
+DataFormat:sfntData
+FileLength:51328
+FileModTime:1379613978
+WeightClass:500
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\font_1-webfont.woff
+FileModTime:1379613978
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:apex_newbookNew-Book
+FamilyName:apex_newbook New
+StyleName:Book
+FullName:apex_newbookNew-Book
+MenuName:apex_newbook New Book
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\font_1.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:96056
+FileModTime:1322003572
+WeightClass:500
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\stylesheet.css
+FileModTime:1379613978
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:apex_newbookNewFCMA-Bd
+FamilyName:apex_newbook New FCMA
+StyleName:Bold
+FullName:apex_newbook New FCMA Bold
+MenuName:apex_newbookNewFCMA Bd
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\apex_newbook Fonts\apex_newbookNewFCMA-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:67724
+FileModTime:1350586618
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:apex_newbookNewFCMA-Bk
+FamilyName:apex_newbook New FCMA
+StyleName:Book
+FullName:apex_newbook New FCMA Book
+MenuName:apex_newbookNewFCMA Bk
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\apex_newbook Fonts\apex_newbookNewFCMA-Book.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:65824
+FileModTime:1350585628
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:apex_newbookNewFCMA-Hvy
+FamilyName:apex_newbook New FCMA
+StyleName:Heavy
+FullName:apex_newbook New FCMA Heavy
+MenuName:apex_newbookNewFCMA Hvy
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\apex_newbook Fonts\apex_newbookNewFCMA-Heavy.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:67712
+FileModTime:1350585020
+WeightClass:750
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:apex_newbookNewFCMA-HvyIt
+FamilyName:apex_newbook New FCMA
+StyleName:Heavy Italic
+FullName:apex_newbook New FCMA Heavy Italic
+MenuName:apex_newbookNewFCMA Hvy
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\apex_newbook Fonts\apex_newbookNewFCMA-HeavyItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:72228
+FileModTime:1350585020
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:apex_newbookNewFCMA-Lt
+FamilyName:apex_newbook New FCMA
+StyleName:Light
+FullName:apex_newbook New FCMA Light
+MenuName:apex_newbookNewFCMA Lt
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\apex_newbook Fonts\apex_newbookNewFCMA-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:66772
+FileModTime:1350585020
+WeightClass:300
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:apex_newbookNewFCMA-Md
+FamilyName:apex_newbook New FCMA
+StyleName:Medium
+FullName:apex_newbook New FCMA Medium
+MenuName:apex_newbookNewFCMA Med
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\apex_newbook Fonts\apex_newbookNewFCMA-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:65752
+FileModTime:1350585022
+WeightClass:500
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:apex_newbookNewFCMA-Th
+FamilyName:apex_newbook New FCMA
+StyleName:Thin
+FullName:apex_newbook New FCMA Thin
+MenuName:apex_newbookNewFCMA Thin
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\apex_newbook Fonts\apex_newbookNewFCMA-Thin.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:66484
+FileModTime:1350585024
+WeightClass:250
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:apex_newbookNewFCMA-Ul
+FamilyName:apex_newbook New FCMA
+StyleName:Ultra
+FullName:apex_newbook New FCMA Ultra
+MenuName:apex_newbookNewFCMA Ul
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\apex_newbook Fonts\apex_newbookNewFCMA-Ultra.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:66912
+FileModTime:1350585024
+WeightClass:850
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:apex_newbookSerif-Medium
+FamilyName:apex_newbook Serif Medium
+StyleName:Regular
+FullName:apex_newbookSerif-Medium
+MenuName:apex_newbook Serif Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\apex_newbook Fonts\apex_newbookSerif-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:35400
+FileModTime:1322003802
+WeightClass:500
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:apex_newbookSerifFCMA-Bold
+FamilyName:apex_newbook Serif FCMA
+StyleName:Bold
+FullName:apex_newbookSerifFCMA-Bold
+MenuName:apex_newbook Serif FCMA Bold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\apex_newbook Fonts\apex_newbookSerifFCMA-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:51300
+FileModTime:1350456760
+WeightClass:750
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:apex_newbookSerifFCMA-BoldItalic
+FamilyName:apex_newbook Serif FCMA
+StyleName:Bold Italic
+FullName:apex_newbookSerifFCMA-BoldItalic
+MenuName:apex_newbook Serif FCMA Bold Italic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\apex_newbook Fonts\apex_newbookSerifFCMA-BoldItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:52208
+FileModTime:1350456760
+WeightClass:750
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:apex_newbookSerifFCMA-Book
+FamilyName:apex_newbook Serif FCMA
+StyleName:Book
+FullName:apex_newbookSerifFCMA-Book
+MenuName:apex_newbook Serif FCMA Book
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\apex_newbook Fonts\apex_newbookSerifFCMA-Book.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:50816
+FileModTime:1350456762
+WeightClass:650
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:apex_newbookSerifFCMA-BookItalic
+FamilyName:apex_newbook Serif FCMA
+StyleName:Book Italic
+FullName:apex_newbookSerifFCMA-BookItalic
+MenuName:apex_newbook Serif FCMA Book Italic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\apex_newbook Fonts\apex_newbookSerifFCMA-BookItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:50360
+FileModTime:1350456762
+WeightClass:675
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:apex_newbookSerifFCMA-Heavy
+FamilyName:apex_newbook Serif FCMA
+StyleName:Heavy
+FullName:apex_newbookSerifFCMA-Heavy
+MenuName:apex_newbook Serif FCMA Heavy
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\apex_newbook Fonts\apex_newbookSerifFCMA-Heavy.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:51580
+FileModTime:1350456762
+WeightClass:775
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:apex_newbookSerifFCMA-HeavyItalic
+FamilyName:apex_newbook Serif FCMA
+StyleName:Heavy Italic
+FullName:apex_newbookSerifFCMA-HeavyItalic
+MenuName:apex_newbook Serif FCMA Heavy Italic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\apex_newbook Fonts\apex_newbookSerifFCMA-HeavyItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:51028
+FileModTime:1350456762
+WeightClass:800
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:apex_newbookSerifFCMA-Light
+FamilyName:apex_newbook Serif FCMA
+StyleName:Light
+FullName:apex_newbookSerifFCMA-Light
+MenuName:apex_newbook Serif FCMA Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\apex_newbook Fonts\apex_newbookSerifFCMA-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:50028
+FileModTime:1350456762
+WeightClass:600
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:apex_newbookSerifFCMA-LightItalic
+FamilyName:apex_newbook Serif FCMA
+StyleName:Light Italic
+FullName:apex_newbookSerifFCMA-LightItalic
+MenuName:apex_newbook Serif FCMA Light Italic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\apex_newbook Fonts\apex_newbookSerifFCMA-LightItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:49660
+FileModTime:1350456978
+WeightClass:625
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:apex_newbookSerifFCMA-Medium
+FamilyName:apex_newbook Serif FCMA
+StyleName:Medium
+FullName:apex_newbookSerifFCMA-Medium
+MenuName:apex_newbook Serif FCMA Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\apex_newbook Fonts\apex_newbookSerifFCMA-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:52220
+FileModTime:1350456764
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:apex_newbookSerifFCMA-MediumItalic
+FamilyName:apex_newbook Serif FCMA
+StyleName:Medium Italic
+FullName:apex_newbookSerifFCMA-MediumItalic
+MenuName:apex_newbook Serif FCMA Medium Italic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\alittre\Desktop\Design\Font\apex_newbook Fonts\apex_newbookSerifFCMA-MediumItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:52104
+FileModTime:1350456764
+WeightClass:725
+WidthClass:5
+AngleClass:0
+%EndFont
+

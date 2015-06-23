@@ -1,0 +1,119 @@
+﻿<section id="myTeamRewards-view" class="mainbar" data-ng-controller="myTeamRewardsController as vm">
+    <section>
+        <div class="main-content center-text">
+            <div data-ng-show="vm.isLeader">
+                <div class="col-sm-2 col-md-2 col-lg-2"></div>
+                <div class="col-sm-8 col-md-8 col-lg-8 ">
+                    <h2 class="brown-text">My Team Rewards </h2>
+                    <br />
+
+                    <div id="exportable">
+                        <table class="table table-condensed">
+                            <thead>
+                                <tr></tr>
+                                <tr>
+                                    <th class="center-text"><a href="" data-ng-click="vm.changeSort('createdByFullName')">From</a></th>
+                                    <th class="center-text"><a href="" data-ng-click="vm.changeSort('recipientFullName')">To</a></th>
+                                    <th class="center-text"><a href="" data-ng-click="vm.changeSort('rewardTypeID')">Reward</a></th>
+                                    <th class="center-text" colspan="2"><a href="" data-ng-click="vm.changeSort('createdDate')">Created</a></th>
+                                    <th class="center-text"><a href="" data-ng-click="vm.changeSort('statusDescription')">Status</a></th>
+                                    <th style="text-align:left;"><a href="">Actions</a></th>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <th class="center-text"><input type="text" ng-init="filterOptions.createdByFullName=''" ng-model="filterOptions.createdByFullName" /></th>
+                                <th class="center-text"><input type="text" ng-init="filterOptions.recipientFullName=''" ng-model="filterOptions.recipientFullName" /></th>
+                                <th class="center-text"><input type="text" ng-init="filterOptions.rewardTypeDescription=''" ng-model="filterOptions.rewardTypeDescription" /></th>
+                                <th>
+                                    <table>
+                                        <tr>
+                                            <td class="blue">From:&nbsp;</td>
+                                            <td>
+                                                <input style="width:90px;" type="text" disabled datepicker-popup="MM/dd/yyyy" ng-init="filterCreatedDateFrom=''" ng-model="filterCreatedDateFrom" is-open="openedDateFrom" datepicker-options="dateOptions" ng-required="true" close-text="Close" />
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-default" ng-click="open($event, 'openedDateFrom')"><i class="glyphicon glyphicon-calendar"></i></buttonstyle="width:90px;">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </th>
+                                <th>
+                                    <table>
+                                        <tr>
+                                            <td class="blue">To:&nbsp;</td>
+                                            <td>
+                                                <input style="width:90px;" type="text" disabled datepicker-popup="MM/dd/yyyy" ng-init="filterCreatedDateTo=''" ng-model="filterCreatedDateTo" is-open="openedDateTo" datepicker-options="dateOptions" ng-required="true" close-text="Close" />
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-default" ng-click="open($event, 'openedDateTo')"><i class="glyphicon glyphicon-calendar"></i></button>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </th>
+                                <th class="center-text"><input type="text" ng-init="filterOptions.statusDescription=''" ng-model="filterOptions.statusDescription" /></th>
+                                <th>
+                                    <a class="fa fa-file-excel-o blue" ng-click="vm.exportData()"></a>
+
+                                </th>
+                            </tr>
+                            <tbody>
+                                <tr data-ng-repeat="r in filtered = (vm.filteredRewards | orderBy:vm.sort:vm.reverse | filter:{createdByFullName:filterOptions.createdByFullName} | filter:{recipientFullName:filterOptions.recipientFullName} | filter:{rewardTypeDescription:filterOptions.rewardTypeDescription} | myDateRangeFilter:filterCreatedDateFrom:filterCreatedDateTo  |  filter:{statusDescription:filterOptions.statusDescription}) | startFrom:(vm.currentPage-1)*vm.pageSize | limitTo:vm.pageSize" data-ng-grid="gridOptions">
+                                    <td class="colLeftAlign">{{r.createdByFullName}}</td>
+                                    <td class="colLeftAlign">{{r.recipientFullName}}</td>
+                                    <td class="colLeftAlign">{{r.rewardTypeDescription}}</td>
+                                    <td class="colLeftAlign" colspan="2">{{r.createdDate | date:short}}</td>
+                                    <td class="colLeftAlign">{{r.statusDescription}}</td>
+                                    <td style="text-align:left;">
+                                        <a data-ng-click="vm.openDetail(r)">
+                                            <span class="fa fa-search-plus" title="View"></span>
+                                        </a>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                            <tr>
+                                <td colspan="7" class="text-right">
+                                    <h4>Total: ${{filtered | sumOfValue}}</h4>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-12" ng-show="filtered.length == 0">
+                        <div class="col-md-12">
+                            <h4>No results found</h4>
+                        </div>
+                    </div>
+                    <div class="row" ng-show="filtered.length > vm.pageSize" align="center" id="paginationContent">
+                        <pagination boundary-links="true" total-items="filtered.length" ng-model="vm.currentPage" class="pagination-sm" max-size="15" on-select-page="vm.setPage(page)"
+                                    previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;" items-per-page="vm.pageSize" num-pages="numPages"></pagination>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2"></div>
+            </div>
+            <div data-ng-show="!vm.isLeader">
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                </div>
+                <div class="col-sm-8 col-md-8 col-lg-8 center-text">
+                    <div class="col-md-12">
+                        <h4>You are not authorized to view reports.</h4>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="col-sm-1 col-md-1 col-lg-1"></div>-->
+
+            <!--**** print modal window ****-->
+            <script type="text/ng-template" id="printModal.html">
+                <div data-ng-include="'app/views/modals/printModal.html'"></div>
+            </script>
+            <!--**** end print modal window ****-->
+
+            <br />
+
+            <!--**** Detail modal window ****-->
+            <script type="text/ng-template" id="detailModal.html">
+                <div data-ng-include="'app/views/modals/detailModal.html'"></div>
+            </script>
+            <!--**** end DETAIL modal window ****-->
+
+    </section>
+</section>

@@ -1,0 +1,26 @@
+﻿<section id="report-view" class="mainbar" data-ng-controller="reportController as vm">
+    <section>
+        <div class="main-content center-text">
+            <div data-ng-show="vm.isLeader">
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                </div>
+                <div class="col-sm-8 col-md-8 col-lg-8" style="background-color:#88ae6f">
+                    <h2 class="brown-text">Reports</h2>
+                </div>
+            </div>
+            <div data-ng-show="!vm.isLeader">
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                </div>
+                <div class="col-sm-8 col-md-8 col-lg-8">
+                </div>
+                <div class="col-md-12 center-text">
+                    <div class="col-md-12">
+                        <h4>You are not authorized to view reports.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1 col-md-1 col-lg-1">
+            </div>
+        </div>
+    </section>
+</section>

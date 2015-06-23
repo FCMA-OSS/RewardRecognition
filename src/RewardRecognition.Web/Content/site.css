@@ -1,0 +1,704 @@
+﻿@media print {
+    *:not(.printable) {
+        visibility: hidden;
+    }
+
+    .printable {
+        visibility: visible !important;
+    }
+
+    .printable-text {
+        visibility: visible !important;
+        color: #FFF;
+        -webkit-text-stroke: 1px white;
+        text-shadow: 2px 2px #FFF;
+    }
+    /*.printable img{
+        opacity: .5;
+    }*/
+}
+
+body {
+    /*background-color: white;*/
+    background-color: black;
+}
+
+#content {
+    margin-bottom: 250px;
+}
+
+html, body {
+    font-family: 'apex_newbook';
+}
+
+h2 {
+    color: #2f1e0f;
+    font-family: 'apex_newbook';
+}
+
+h3 {
+    text-align: justify;
+    color: #2f1e0f;
+    font-family: 'apex_newbook';
+}
+
+textarea {
+    resize: none;
+    color: black;
+    padding: 5px;
+    padding-left: 13px;
+    font-family: 'apex_newbook';
+}
+
+th a, span {
+    color: #5e9732;
+}
+
+input {
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding: 5px;
+    padding-left: 13px;
+    font-family: 'apex_newbook';
+}
+
+select {
+    color: default;
+    border-radius: 0;
+    font-family: 'apex_newbook';
+}
+
+.auto-margin {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blue {
+    color: #5e9732;
+}
+
+.brown-text {
+    color: #2f1e0f;
+    font-family: 'apex_newbook';
+}
+
+.brown-background {
+    background-color: #2f1e0f;
+}
+
+.bordered {
+    border: solid;
+    border-color: #5e9732;
+    border-width: 3px;
+}
+
+.btn-success {
+    background-color: #5e9732;
+    border-color: #5e9732;
+}
+
+.color-logo {
+    vertical-align: bottom;
+    padding-top: 35px;
+    right: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.threefourths-width {
+    width: 75%;
+}
+
+.halfwidth {
+    width: 50%;
+}
+
+.display-textarea {
+    padding-top: 5px;
+    border: none;
+    background-color: white;
+}
+
+.full-height {
+    height: 100%;
+    min-height: 100%;
+}
+
+.full-width {
+    width: 100%;
+    min-width: 100%;
+}
+
+.headerText {
+    font-family: 'apex_newbook';
+    font-size: large;
+}
+
+.header-row {
+    height: 75px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.logo {
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.repeat-text {
+    font-size: medium;
+}
+
+.sidebar {
+    position: absolute;
+    margin-top: -140px;
+    background-color: #5e9732;
+    height: 100vw;
+    min-height: 100vw;
+    border-left: solid #2f1e0f;
+    border-right: solid #2f1e0f;
+}
+
+.sidebar-header {
+    text-align: center;
+    color: white;
+    border-bottom-width: 2px;
+    border-bottom-color: White;
+    border-bottom-style: solid;
+    padding: 7px;
+}
+
+.blue-background {
+    background-color: #5e9732;
+    width: 100%;
+    height: 100%;
+}
+
+.div-table-row {
+    display: table-row;
+    display: flex;
+    height: 100%;
+}
+
+.sidebar-content {
+    text-align: center;
+    margin: 0;
+    padding: 7px;
+}
+
+.sidebar-text {
+    color: white;
+    font-family: 'apex_newbook';
+    font-size: larger;
+}
+
+.fill {
+    width: 100%;
+}
+
+.left-align-text {
+    text-align: left;
+    padding-left: 7px;
+}
+
+.right-align-text {
+    text-align: right;
+    padding-right: 7px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.date-text {
+    width: 80%;
+    text-align: left;
+}
+
+.singleRow {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.main-content {
+    padding-top: 50px;
+}
+
+.modal-backdrop {
+    bottom: 0;
+}
+
+.modal.fade .modal-dialog, .modal.in .modal-dialog {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translate(0,-50%);
+    -moz-transform: translate(0,-50%);
+    -webkit-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    width: 100%;
+}
+
+.myGrid {
+    width: 100%;
+    height: 800px;
+    display: table;
+    margin: 0 auto;
+}
+
+.container {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+    .container span {
+    }
+
+.fa {
+    width: 1em;
+    height: 1em;
+    display: block;
+    cursor: pointer;
+}
+
+.fcma-error-label {
+    float: none;
+    width: 100%;
+    text-align: left;
+    color: red;
+    font-size: .9em;
+}
+
+.fcma-warning-label {
+    float: none;
+    width: 100%;
+    text-align: left;
+    color: yellow;
+    font-size: .9em;
+}
+
+.redemption-table {
+    width: 25%;
+}
+
+.user-carousel {
+    width: 404px;
+    height: 216px;
+}
+
+.user-image-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.veil {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    cursor: not-allowed;
+    filter: alpha(opacity=60);
+    z-index: 1500;
+    opacity: 0.7;
+    background: #FFF no-repeat center;
+}
+
+.veil-display {
+    position: absolute;
+    z-index: 1600;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    color: #5e9732;
+}
+
+.voucher {
+    display: inline-block;
+}
+
+.voucher-content {
+    /*position: absolute;
+    top: 0;
+    margin-left:auto;
+    margin-right:auto;*/
+    /*left: 0;*/
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+}
+
+.white {
+    background-color: white;
+    border: none;
+    width: 100%;
+}
+
+/*#region livingTiles*/
+.panel-container {
+    width: 210px;
+    margin: 0 auto;
+}
+
+.panel {
+    cursor: pointer;
+    float: left;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    font-size: .8em;
+    padding:10px;
+    -webkit-perspective: 600px;
+    -moz-perspective: 600px;
+    perspective: 600px;
+}
+    /* -- make sure to declare a default for every property that you want animated -- */
+    /* -- general styles, including Y axis rotation -- */
+    .panel .front {
+        float: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 900;
+        width: inherit;
+        height: inherit;
+        text-align: center;
+        -webkit-transform: rotateX(0deg) rotateY(0deg);
+        -moz-transform: rotateX(0deg) rotateY(0deg);
+        transform: rotateX(0deg) rotateY(0deg);
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        backface-visibility: hidden;
+        /* -- transition is the magic sauce for animation -- */
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+
+    .panel.flip .front {
+        z-index: 900;
+        border-color: #eee;
+        background: #333;
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+
+    .panel .back {
+        float: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 800;
+        width: inherit;
+        height: inherit;
+        text-align: center;
+        -webkit-transform: rotateY(-180deg);
+        -moz-transform: rotateY(-179deg); /* setting to 180 causes an unnatural-looking half-flip */
+        transform: rotateY(-179deg);
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        backface-visibility: hidden;
+        /* -- transition is the magic sauce for animation -- */
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+
+    .panel.flip .back {
+        z-index: 1000;
+        background: #aaa;
+        -webkit-transform: rotateX(0deg) rotateY(0deg);
+        -moz-transform: rotateX(0deg) rotateY(0deg);
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+/*#endregion livingTiles*/
+
+/*#region loading*/
+
+.loading-container {
+    width: 256px;
+    height: 256px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.loading {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: 36%;
+    left: 36%;
+    transform: rotate(45deg);
+}
+
+    .loading div {
+        width: 32px;
+        height: 32px;
+        position: absolute;
+    }
+
+.l1 div, .l2 div, .l3 div, .l4 div {
+    width: 100%;
+    height: 100%;
+    background-color: #5e9732;
+}
+
+.l1 {
+    transform: translate(0,0);
+}
+
+.l2 {
+    transform: translate(0,32px);
+}
+
+.l3 {
+    transform: translate(32px,0px);
+}
+
+.l4 {
+    transform: translate(32px,32px);
+}
+
+@keyframes rot1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    40% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    60% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes rot2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    40% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    60% {
+        transform: rotate(-90deg);
+    }
+
+    100% {
+        transform: rotate(-90deg);
+    }
+}
+
+@keyframes rot3 {
+    0% {
+        transform: rotate(45deg);
+    }
+
+    35% {
+        transform: rotate(45deg);
+    }
+
+    65% {
+        transform: rotate(405deg);
+    }
+
+    100% {
+        transform: rotate(405deg);
+    }
+}
+
+@keyframes l1-rise {
+    0% {
+        transform: translate(0px,0px);
+    }
+
+    30% {
+        transform: translate(-8px, -8px);
+    }
+
+    70% {
+        transform: translate(-8px, -8px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes l2-rise {
+    0% {
+        transform: translate(0,32px);
+    }
+
+    30% {
+        transform: translate(-8px, 40px);
+    }
+
+    70% {
+        transform: translate(-8px, 40px);
+    }
+
+    100% {
+        transform: translate(0,32px);
+    }
+}
+
+@keyframes l3-rise {
+    0% {
+        transform: translate(32px, 0px);
+    }
+
+    30% {
+        transform: translate(40px, -8px);
+    }
+
+    70% {
+        transform: translate(40px, -8px);
+    }
+
+    100% {
+        transform: translate(32px, 0px);
+    }
+}
+
+@keyframes l4-rise {
+    0% {
+        transform: translate(32px,32px);
+    }
+
+    30% {
+        transform: translate(40px, 40px);
+    }
+
+    70% {
+        transform: translate(40px, 40px);
+    }
+
+    100% {
+        transform: translate(32px,32px);
+    }
+}
+
+@keyframes color {
+    0% {
+        background-color: #5e9732;
+    }
+
+    50% {
+        background-color: #88ae6f;
+    }
+
+    100% {
+        background-color: #5e9732;
+    }
+}
+
+.l1 {
+    animation: l1-rise 3s ease 0s infinite;
+}
+
+.l2 {
+    animation: l2-rise 3s ease 0s infinite;
+}
+
+.l3 {
+    animation: l3-rise 3s ease 0s infinite;
+}
+
+.l4 {
+    animation: l4-rise 3s ease 0s infinite;
+}
+
+    .l1 div, .l4 div {
+        animation: rot1 3s ease 0s infinite, color 3s linear 0s infinite;
+    }
+
+.l2 div, .l3 div {
+    animation: rot2 3s ease 0s infinite, color 3s linear 0s infinite;
+}
+/*#endregion loading*/
+
+/*#region pagination*/
+.pagination > li > a,
+.pagination > li > span {
+  color: #5e9732 !important;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  color: #88ae6f;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #5e9732 !important;
+  border-color: #5e9732 !important;
+  color:white !important;
+}
+/*#endregion pagination*/
+
+
+/* region IE "X" issue */
+/*   
+    IE has an "X" in each text input that will clear the input. 
+    However, when clicking this button, while it clears the textbox, it does not update the Angular model that the input is bound to after Angularjs1.3.6.
+    Therefore, use the following to hide it.
+*/
+input[type=text]::-ms-clear {
+display: none;
+}
+/* endregion IE "X" issue */

@@ -1,0 +1,68 @@
+﻿<div class="modal-header">
+    <h3 class="modal-title">{{title}}</h3>
+</div>
+<div class="modal-body printable center-text full-height">
+    <div class="printable voucher center-text full-height">
+        <img src="Content/VoucherBG.png" class="auto-margin printable" />
+        <div class="voucher-content printable-text">
+            <br />
+            <br />
+            <h1 class="printable-text"><strong class="printable-text">Well done!</strong></h1>
+            <br />
+            <br />
+            You've received recognition
+            <br />
+            from {{reward.createdByFullName}}
+            <br />
+            on {{reward.createdDate | date:short}}
+            <br />
+            <br />
+            <br />
+            <br />            Redemption Code
+            <div class="printable-text" style="border:solid; color:black;display: inline-block; border-width:1px; padding:5px;">
+                <strong class="printable-text">{{reward.rewardID}}</strong>
+            </div>
+            <br />
+            <br />
+        </div>
+    </div>
+    <div class="printable center-text full-height">
+        <br />
+        <strong class="printable">
+            Next Steps
+        </strong>
+        <br />
+        <br />
+        <div class="printable div-table-row">
+            <div class="col-lg-6 printable left-align-text">
+                <span class="underline printable" style="color:black">
+                    Presenter
+                </span>
+                <br />
+                1.      Print this page.
+                <br />
+                2.      Obtain pre-printed 2020 Vision thank you card from supply office and write personal message to Recipient.
+                <br />
+                3.      Place this voucher inside 2020 Vision card and present / mail to Recipient.
+                <br />
+                4.      Make someone’s day!
+                <br />
+            </div>
+            <div class="col-lg-6 printable left-align-text">
+                <span class="underline printable" style="color:black">
+                    Recipient
+                </span>
+                <br />
+                1.      Present this voucher to Facilities / local office support staff to collect gift card.
+                <br />
+                2.      Pat yourself on the back for a job well done.
+                <br />
+                3.      Enjoy your reward!
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-fcma-green" ng-click="print()">Print</button>
+    <button class="btn btn-fcma-orange" ng-click="cancel()">Cancel</button>
+</div>

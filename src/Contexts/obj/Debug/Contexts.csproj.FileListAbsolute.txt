@@ -1,0 +1,12 @@
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Contexts\bin\Debug\FCMA.RewardRecognition.Core.Contexts.dll.config
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Contexts\bin\Debug\FCMA.RewardRecognition.Core.Contexts.dll
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Contexts\bin\Debug\FCMA.RewardRecognition.Core.Contexts.pdb
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Contexts\bin\Debug\EntityFramework.dll
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Contexts\bin\Debug\EntityFramework.SqlServer.dll
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Contexts\bin\Debug\FCMA.RewardRecognition.Core.Entities.dll
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Contexts\bin\Debug\FCMA.RewardRecognition.Core.Entities.pdb
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Contexts\bin\Debug\EntityFramework.xml
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Contexts\bin\Debug\EntityFramework.SqlServer.xml
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Contexts\obj\Debug\Contexts.csprojResolveAssemblyReference.cache
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Contexts\obj\Debug\FCMA.RewardRecognition.Core.Contexts.dll
+C:\_tfs\AppDev\Intranet\RewardRecognition\main\src\Contexts\obj\Debug\FCMA.RewardRecognition.Core.Contexts.pdb

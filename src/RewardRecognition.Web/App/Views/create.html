@@ -1,0 +1,247 @@
+﻿<section id="create-view" class="mainbar" data-ng-controller="createController as vm">
+    <section>
+        <div class="col-sm-1 col-md-1 col-lg-1 main-content"></div>
+        <div class="col-sm-3 col-md-3 col-lg-3 main-content center-text">
+            <h4 class="brown-text">
+                MOST RECENT:
+            </h4>
+            <br />
+            <!--***** LIVING TILES *****-->
+            <div class="panel-container">
+                <div class="div-table-row">
+                    <div class="panel" ng-class="{'flip': flip[0]}">
+                        <div class="front">
+                            <img src="{{vm.currentRewards[0].image}}" alt="" class="image"
+                                 ng-click="vm.openDetail(vm.currentRewards[0])" />
+                        </div>
+                        <div class="back">
+                            <img src="{{vm.currentRewards[1].image}}" alt="" class="image"
+                                 ng-click="vm.openDetail(vm.currentRewards[1])" />
+                        </div>
+                    </div>
+                    <div class="panel" ng-class="{'flip': flip[1]}">
+                        <div class="front">
+                            <img src="{{vm.currentRewards[2].image}}" alt="" class="image"
+                                 ng-click="vm.openDetail(vm.currentRewards[2])" />
+                        </div>
+                        <div class="back">
+                            <img src="{{vm.currentRewards[3].image}}" alt="" class="image"
+                                 ng-click="vm.openDetail(vm.currentRewards[3])" />
+                        </div>
+                    </div>
+                </div>
+                <div class="div-table-row">
+                    <div class="panel" ng-class="{'flip': flip[2]}">
+                        <div class="front">
+                            <img src="{{vm.currentRewards[4].image}}" alt="" class="image"
+                                 ng-click="vm.openDetail(vm.currentRewards[4])" />
+                        </div>
+                        <div class="back">
+                            <img src="{{vm.currentRewards[5].image}}" alt="" class="image"
+                                 ng-click="vm.openDetail(vm.currentRewards[5])" />
+                        </div>
+                    </div>
+                    <div class="panel" ng-class="{'flip': flip[3]}">
+                        <div class="front">
+                            <img src="{{vm.currentRewards[6].image}}" alt="" class="image"
+                                 ng-click="vm.openDetail(vm.currentRewards[6])" />
+                        </div>
+                        <div class="back">
+                            <img src="{{vm.currentRewards[7].image}}" alt="" class="image"
+                                 ng-click="vm.openDetail(vm.currentRewards[7])" />
+                        </div>
+                    </div>
+                </div>
+                <div class="div-table-row">
+                    <div class="panel" ng-class="{'flip': flip[4]}">
+                        <div class="front">
+                            <img src="{{vm.currentRewards[8].image}}" alt="" class="image"
+                                 ng-click="vm.openDetail(vm.currentRewards[8])" />
+                        </div>
+                        <div class="back">
+                            <img src="{{vm.currentRewards[9].image}}" alt="" class="image"
+                                 ng-click="vm.openDetail(vm.currentRewards[9])" />
+                        </div>
+                    </div>
+                    <div class="panel" ng-class="{'flip': flip[5]}">
+                        <div class="front">
+                            <img src="{{vm.currentRewards[10].image}}" alt="" class="image"
+                                 ng-click="vm.openDetail(vm.currentRewards[10])" />
+                        </div>
+                        <div class="back">
+                            <img src="{{vm.currentRewards[11].image}}" alt="" class="image"
+                                 ng-click="vm.openDetail(vm.currentRewards[11])" />
+                        </div>
+                    </div>
+                </div>
+                <div class="div-table-row">
+                    <div class="panel" id="7" ng-class="{'flip': flip[6]}">
+                        <div class="front">
+                            <img src="{{vm.currentRewards[12].image}}" alt="" class="image"
+                                 ng-click="vm.openDetail(vm.currentRewards[12])" />
+                        </div>
+                        <div class="back">
+                            <img src="{{vm.currentRewards[13].image}}" alt="" class="image"
+                                 ng-click="vm.openDetail(vm.currentRewards[13])" />
+                        </div>
+                    </div>
+                    <div class="panel" ng-class="{'flip': flip[7]}">
+                        <div class="front">
+                            <img src="{{vm.currentRewards[14].image}}" alt="" class="image"
+                                 ng-click="vm.openDetail(vm.currentRewards[14])" />
+                        </div>
+                        <div class="back">
+                            <img src="{{vm.currentRewards[15].image}}" alt="" class="image"
+                                 ng-click="vm.openDetail(vm.currentRewards[15])" />
+                        </div>
+                    </div>
+                </div>
+                <div class="div-table-row">
+                    <div class="panel" ng-class="{'flip': flip[8]}">
+                        <div class="front">
+                            <img src="{{vm.currentRewards[16].image}}" alt="" class="image"
+                                 ng-click="vm.openDetail(vm.currentRewards[16])" />
+                        </div>
+                        <div class="back">
+                            <img src="{{vm.currentRewards[17].image}}" alt="" class="image"
+                                 ng-click="vm.openDetail(vm.currentRewards[17])" />
+                        </div>
+                    </div>
+                    <div class="panel" ng-class="{'flip': flip[9]}">
+                        <div class="front">
+                            <img src="{{vm.currentRewards[18].image}}" alt="" class="image"
+                                 ng-click="vm.openDetail(vm.currentRewards[18])" />
+                        </div>
+                        <div class="back">
+                            <img src="{{vm.currentRewards[19].image}}" alt="" class="image"
+                                 ng-click="vm.openDetail(vm.currentRewards[19])" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--***** END LIVING TILES *****-->
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4 main-content">
+            <div class="col-sm-11 col-md-11 col-lg-11 center-text">
+                <h2 class="brown-text">Welcome</h2>
+                <hr />
+                <h3 class="brown-text">
+                    <!--Have you noticed a teammate or colleague do something extraordinary for you or the company
+                    and would like to recognize them in some way?-->
+                    Welcome to the Rewards and Recognition Program.
+                    Want to recognize a team member for their outstanding efforts?
+                </h3>
+                <h3 class="brown-text">
+                    Use the form on the right to say a special thank you for a job well done!
+                </h3>
+            </div>
+            <div class="col-sm-1 col-md-1 col-lg-1"></div>
+
+
+        </div>
+        <div class="sidebar col-sm-3 col-md-3 col-lg-3 full-height">
+            <form name="requestForm" novalidate data-ng-submit="vm.save()">
+                <div>
+                    <div class="sidebar-text logo"><img src="Content/FCMA Logo.png" alt="FCMA" /></div>
+                    <div class="sidebar-header" style="font-size:150%"><h4 class="sidebar-text">RECOGNIZE A JOB WELL DONE</h4></div>
+                    <div class="sidebar-content sidebar-text" style="text-align:left;">
+                        From:
+                        <span id="presenterFullName" class="sidebar-text" name="presenterFullName" data-ng-bind="vm.presenterFullName" />
+                        <!--<span id="presenter" name="presenter" data-ng-bind="vm.presenter" />-->
+                    </div>
+                    <div class="sidebar-content">
+                        <input type="text" data-ng-model="vm.selected" ng-keypress="vm.inAD($event)" placeholder="To..." tabindex="1" recipient name" class="fill"
+                               typeahead="user as (user.userFullName + ', ' + user.jobTitle + ' - ' + user.officeLocation) for user in vm.users | filter:{userFullName:$viewValue} | limitTo:10"
+                               typeahead-editable="false" typeahead-on-select="vm.onSelect($item, $model, $label); asyncSelected = '';" typeahead-wait-ms="100" class="form-control">
+                    </div>
+                    <div class="sidebar-text" data-ng-show="vm.selectedUsers.length > 0">
+                        <table class="table table-condensed">
+                            <tbody>
+                                <tr data-ng-repeat="user in vm.selectedUsers | orderBy:user.userFullName">
+                                    <td class="left-align-text repeat-text">{{user.userFullName}}</td>
+                                    <td class="right-align-text"><button data-ng-click="vm.removeSelectedUser(user)" class="btn btn-danger" id="{{$index}}" tabindex="2"><strong>X</strong></button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="sidebar-content">
+                        <select name="RewardType" class="fill form-control"
+                                data-ng-readonly="false" tabindex="3"
+                                data-ng-options="type as type.description for type in vm.rewardTypes"
+                                data-ng-model="vm.rewardType"
+                                data-ng-required="false"
+                                data-ng-change="vm.showApprovalNoticeCalc()">
+                            <option value="">Select Reward</option>
+                        </select>
+                    </div>
+
+                    <div class="sidebar-content">
+                        <label class="fcma-warning-label"
+                               data-ng-show="vm.showApprovalNotice">
+                            Amounts greater than $25 require your leader's approval
+                        </label>
+                    </div>
+
+
+                    <div class="sidebar-content">
+                        <select name="Reason" class="fill form-control" tabindex="4"
+                                data-ng-readonly="false"
+                                data-ng-options="r as r.description for r in vm.rewardReasons"
+                                data-ng-model="vm.rewardReason"
+                                data-ng-required="false">
+                            <option value="">Select Reason</option>
+                        </select>
+                        <br />
+                    </div>
+                    <div class="sidebar-content">
+                        <textarea spellcheck="true" rows="5" cols="40" placeholder="Reason Details (required)..." data-ng-model="vm.Comments" tabindex="5" class="fill"></textarea>
+                    </div>
+                    <br />
+
+                    <!--**** PREVIEW modal window ****-->
+                    <script type="text/ng-template" id="previewModalContent.html">
+                        <div class="modal-header">
+                            <h3 class="modal-title">{{title}}</h3>
+                        </div>
+                        <div class="modal-body">
+                            <strong>I wish to recognize:</strong>
+                            <br />
+                            <table class="table table-condensed">
+                                <tbody>
+                                    <tr data-ng-repeat="user in selectedUsers | orderBy:user.userFullName">
+                                        <td class="colLeftAlign" style="vertical-align:central">{{user.userFullName}}</td>
+                                        <td class="colLeftAlign" style="vertical-align:central">{{user.jobTitle}}</td>
+                                        <td class="colLeftAlign" style="vertical-align:central">{{user.officeLocation}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            with a reward of <strong>{{amount.description}}</strong> for <strong>'{{reason.description}}'</strong>.
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-success" data-ng-click="ok()" ng-show="showButton">Submit</button>
+                            <button class="btn btn-fcma-yellow" data-ng-click="cancel()">Cancel</button>
+                        </div>
+                    </script>
+                    <!--**** end modal window ****-->
+                    <!--**** Detail modal window ****-->
+                    <script type="text/ng-template" id="detailModal.html">
+                        <div data-ng-include="'app/views/modals/detailModal.html'"></div>
+                    </script>
+                    <!--**** end DETAIL modal window ****-->
+
+                    <div class="sidebar-content">
+                        <button name="Submit" type="submit" tabindex="6"
+                                class="fill btn btn-default btn-lg btn-fcma-darkbrown"
+                                value="Submit" data-ng-click="vm.openReview()"
+                                data-ng-disabled="vm.invalid(false)">
+                            <strong>MAKE SOMEONE'S DAY</strong>
+                        </button>
+                    </div>
+                    <div class="sidebar-content" data-ng-show="alerts.length > 0">
+                        <alert data-ng-repeat="alert in alerts" type="{{alert.type}}" close="vm.closeAlert($index)">{{alert.msg}}</alert>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</section>

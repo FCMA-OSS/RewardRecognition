@@ -1,0 +1,103 @@
+﻿<section id="approval-view" class="mainbar" data-ng-controller="approvalController as vm">
+    <section>
+        <div class="main-content center-text">
+            <div data-ng-show="vm.isLeader">
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                </div>
+                <div class="col-sm-8 col-md-8 col-lg-8">
+                    <h2 class="brown-text">Pending Approvals</h2>
+                    <table class="table table-condensed">
+                        <thead>
+                            <tr>
+                                <th class="center-text"><a href="" data-ng-click="vm.changeSort('createdByFullName')">From</a></th>
+                                <th class="center-text"><a href="" data-ng-click="vm.changeSort('recipientFullName')">To</a></th>
+                                <th class="center-text"><a href="" data-ng-click="vm.changeSort('rewardTypeID')">Reward</a></th>
+                                <th class="center-text"><a href="" data-ng-click="vm.changeSort('reasonDescription')">Reason</a></th>
+                                <th style="text-align:left;"><a href="">Actions</a></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-ng-repeat="r in filtered = (vm.filteredRequests | orderBy:vm.sort:vm.reverse) | startFrom:(vm.currentPage-1)*vm.pageSize | limitTo:vm.pageSize">
+                                <td class="colLeftAlign">{{r.createdByFullName}}</td>
+                                <td class="colLeftAlign">{{r.recipientFullName}}</td>
+                                <td class="colLeftAlign">{{r.rewardType.description}}</td>
+                                <td class="colLeftAlign">{{r.rewardReason.description}}</td>
+                                <td style="text-align:left;">
+                                    <a data-ng-click="vm.openDetail(r)">
+                                        <span class="fa fa-search-plus" title="View Details"></span>
+                                    </a>
+                                    &nbsp;
+                                    <a data-ng-click="vm.clickApprove(r.rewardID)">
+                                        <span style="color:green;" class="fa fa-check" title="Approve"></span>
+                                    </a>&nbsp;
+                                    <a data-ng-click="vm.clickDenied(r.rewardID)">
+                                        <span style="color:red;" class="fa fa-remove" title="Deny"></span>
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="col-md-12" ng-show="filtered.length == 0">
+                        <div class="col-md-12">
+                            <h4>No results found</h4>
+                        </div>
+                    </div>
+                    <div class="row" ng-show="filtered.length > vm.pageSize" align="center" id="paginationContent">
+                        <pagination boundary-links="true" total-items="filtered.length" ng-model="vm.currentPage" class="pagination-sm" max-size="15" on-select-page="vm.setPage(page)"
+                                    previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;" items-per-page="vm.pageSize" num-pages="numPages"></pagination>
+                    </div>
+                </div>
+            </div>
+            <div data-ng-show="!vm.isLeader">
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                </div>
+                <div class="col-sm-8 col-md-8 col-lg-8">
+                </div>
+                <div class="col-md-12 center-text">
+                    <div class="col-md-12">
+                        <h4>You are not authorized to approve rewards.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1 col-md-1 col-lg-1"></div>
+        </div>
+
+        <div class="col-sm-2 col-md-2 col-lg-2" data-ng-show="alerts.length > 0">
+            <alert data-ng-repeat="alert in alerts" type="{{alert.type}}" close="vm.closeAlert($index)">{{alert.msg}}</alert>
+        </div>
+
+        <!--**** Detail modal window ****-->
+        <script type="text/ng-template" id="detailModal.html">
+            <div data-ng-include="'app/views/modals/detailModal.html'"></div>
+        </script>
+        <!--**** end DETAIL modal window ****-->
+
+
+
+        <div>
+            <!--**** confirm modal window ****-->
+            <script type="text/ng-template" id="confirmModalContent.html">
+                <div class="modal-header">
+                    <h3 class="modal-title">{{title}}</h3>
+                </div>
+                <div class="modal-body">
+                    <table>
+                        <tr><td>ID:</td><td>{{reward.rewardID}}</td></tr>
+                        <tr><td>From:</td><td>{{reward.createdByFullName}}</td></tr>
+                        <tr><td>To:</td><td>{{reward.recipientFullName}}</td></tr>
+                        <tr><td>Reward:</td><td>{{reward.rewardType.description}}</td></tr>
+                        <tr><td>Comments:</td><td>{{reward.otherReason}}</td></tr>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-fcma-green" data-ng-click="ok()">{{buttonText}}</button>
+                    <button class="btn btn-fcma-orange" data-ng-click="cancel()">Cancel</button>
+                </div>
+            </script>
+            <!--**** end confirm modal window ****-->
+
+        </div>
+    </section>
+</section>

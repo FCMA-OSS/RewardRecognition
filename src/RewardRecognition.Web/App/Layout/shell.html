@@ -1,0 +1,41 @@
+﻿<div data-ng-controller="shell as vm">
+    <div ng-show="loading > 0">
+        <div class="veil"></div>
+
+        <div class="centered veil-display">
+            <div class="loading-container">
+                <div class="loading">
+                    <div class="l1">
+                        <div></div>
+                    </div>
+                    <div class="l2">
+                        <div></div>
+                    </div>
+                    <div class="l3">
+                        <div></div>
+                    </div>
+                    <div class="l4">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top:150px;color:#2f1e0f"><h2>Loading...</h2></div>
+        </div>
+    </div>
+
+    <div class="row table-row header-row div-table-row">
+        <div class="col-sm-1 col-md-1 col-lg-1"></div>
+        <div class="col-sm-3 col-md-3 col-lg-3 center-text" style="z-index:10;" data-ng-include="'app/layout/hoverburger.html'"></div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <div class="sidebar-content headerText container blue" data-ng-include="'app/layout/logo.html'"></div>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3 color-logo"><img src="Content/FCMAColorLogo.png" alt="FCMA" ng-show="vm.showLogo()" /></div>
+        <div class="col-sm-1 col-md-1 col-lg-1"></div>
+    </div>
+
+    <div class="row table-row div-table-row col-sm-12 col-md-12 col-lg-12">
+        <section id="content" class="content">
+            <div data-ng-view class="row shuffle-animation full-height"></div>
+        </section>
+    </div>
+</div>

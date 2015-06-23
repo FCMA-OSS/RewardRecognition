@@ -1,0 +1,85 @@
+﻿<section id="redeem-view" class="mainbar" data-ng-controller="redeemController as vm">
+    <section>
+        <div class="main-content center-text">
+            <div data-ng-show="vm.isInRedeemGroup">
+                <div class="col-sm-2 col-md-2 col-lg-2"></div>
+                <div class="col-sm-8 col-md-8 col-lg-8 center-text">
+                    <h2 class="brown-text">Redeem a Reward</h2>
+                    <br />
+                    Please enter reward voucher number (case sensitive):
+                    <br /><br />
+                    <input type="text" data-ng-model="vm.id" name="id" id="id">
+                    <button name="Search" type="submit" tabindex="110"
+                            class="btn btn-info"
+                            value="Search"
+                            data-ng-click="vm.redeemSearch(vm.id)"
+                            data-ng-disabled="false">
+                        <strong>Search</strong>
+                    </button>
+                    <br />
+                    <h4>Reward Results:</h4>
+                    <br />
+                    <div class="col-md-7 col-md-offset-5" data-ng-show="vm.found">
+                        <table border="0" data-ng-show="vm.found">
+                            <colgroup style="width:45%;"></colgroup>
+                            <colgroup style="width:10%"></colgroup>
+                            <colgroup style="width:45%"></colgroup>
+                        <tr>
+                                <td align="left"><strong>ID:</strong></td>
+                                <td align="left">&nbsp;</td>
+                                <td align="left">{{vm.reward.rewardID}}</td>
+                        </tr>
+                        <tr>
+                                <td align="left"><strong>From:</strong></td>
+                                <td align="left">&nbsp;</td>
+                                <td align="left">{{vm.reward.presenter}}</td>
+                        </tr>
+                        <tr>
+                                <td align="left"><strong>To:</strong></td>
+                                <td align="left">&nbsp;</td>
+                                <td align="left">{{vm.reward.recipientFullName}}</td>
+                        </tr>
+                        <tr>
+                                <td align="left"><strong>Amount:</strong></td>
+                                <td align="left">&nbsp;</td>
+                                <td align="left">{{vm.reward.rewardDescription}}</td>
+                        </tr>
+                    </table>
+                    </div>
+                    <div class="col-md-12" data-ng-show="!vm.found && vm.clicked">
+                        <div class="col-md-12">
+                            <h4>No Approved reward was found to Redeem with an ID of "{{vm.wrongId}}"</h4><br /><br />
+                        </div>
+                    </div>
+                    <div><span>&nbsp;</span></div>
+                    <button name="Redeem" type="submit" tabindex="110"
+                            class="btn btn-lg btn-fcma-green"
+                            value="Redeem"
+                            data-ng-click="vm.redeem()"
+                            data-ng-disabled="!(vm.found && vm.clicked)">
+                        <strong style="padding-left:50px;padding-right:50px;">Redeem</strong>
+                    </button>
+                    <br />
+                    <br /><br />
+                    <div class="col-sm-4 col-md-4 col-lg-4"></div>
+                    <div class=" col-sm-4 col-md-4 col-lg-4 center-text" data-ng-show="alerts.length > 0">
+                        <alert data-ng-repeat="alert in alerts" type="{{alert.type}}" close="vm.closeAlert($index)">{{alert.msg}}</alert>
+                    </div>
+                </div>
+            </div>
+
+            <div data-ng-show="!vm.isInRedeemGroup">
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                </div>
+                <div class="col-sm-8 col-md-8 col-lg-8">
+                </div>
+                <div class="col-md-12 center-text">
+                    <div class="col-md-12">
+                        <h4>You are not authorized to redeem rewards.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1 col-md-1 col-lg-1">
+            </div>
+    </section>
+</section>
